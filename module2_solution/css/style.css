@@ -2,8 +2,18 @@
   margin: 0;
   padding: 0;
   border-box: box-sizing;
+  /*font-family: 'Spirax', cursive;*/
 }
 div {
   border: 1px solid black;
-  width: 500px;
+  width: 400px;
+  margin-left: 30px;
+}
+#title1, #title2, #title3  {
+  width: 100px;
+  float: right;
+
+}
+p {
+  margin: 10px;
 }
