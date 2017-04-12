@@ -60,3 +60,15 @@ p {
 
   }
 }
+
+@media (min-width: 992px) {
+  #section1 {
+    width: 90%;
+  }
+  #section1 {
+    width: 90%;
+  }
+  #section1 {
+    width: 90%;
+  }
+}
