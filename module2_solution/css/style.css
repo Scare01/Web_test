@@ -6,6 +6,7 @@
 }
 h1 {
   text-align: center;
+  margin-bottom: 50px;
 }
 div {
   border: 1px solid black;
@@ -38,37 +39,37 @@ p {
 #section1, #section2, #section3 {
   background-color: lightgrey;
   float: left;
-  margin: 5px;
+  margin: 10px;
 }
 
 @media (min-width: 992px) {
   #section1, #section2, #section3 {
-    width: 30%;
+    width: 33%;
+    margin: 10px;
 
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+/*@media (min-width: 768px) and (max-width: 991px) {
   #section1, #section2 {
     width: 48%;
     float: left;
   }
   #section3 {
     width: 97.5%;
-    /*margin-left: 2%;*/
-    clear: both;
+    margin-left: 2%;*/
+    /*clear: both;
+ }
+}*/
 
-  }
-}
-
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
+  #section1 {
+    width: 90%;
+    }
   #section1 {
     width: 90%;
   }
   #section1 {
     width: 90%;
   }
-  #section1 {
-    width: 90%;
-  }
-}
+}*/
