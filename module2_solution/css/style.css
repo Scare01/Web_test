@@ -2,15 +2,15 @@
   margin: 0;
   padding: 0;
   border-box: box-sizing;
-  /*font-family: 'Spirax', cursive;*/
+
 }
 h1 {
   text-align: center;
 }
 div {
   border: 1px solid black;
-  width: 400px;
-  margin: 30px;
+  width: 300px;
+  margin: 10px;
 }
 
 #title1, #title2, #title3  {
@@ -38,10 +38,25 @@ p {
 #section1, #section2, #section3 {
   background-color: lightgrey;
   float: left;
+  margin: 5px;
 }
 
 @media (min-width: 992px) {
   #section1, #section2, #section3 {
-    width: 33%;
+    width: 30%;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #section1, #section2 {
+    width: 48%;
+    float: left;
+  }
+  #section3 {
+    width: 97.5%;
+    /*margin-left: 2%;*/
+    clear: both;
+
   }
 }
