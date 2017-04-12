@@ -4,16 +4,44 @@
   border-box: box-sizing;
   /*font-family: 'Spirax', cursive;*/
 }
+h1 {
+  text-align: center;
+}
 div {
   border: 1px solid black;
   width: 400px;
-  margin-left: 30px;
+  margin: 30px;
 }
+
 #title1, #title2, #title3  {
   width: 100px;
   float: right;
+  margin: 0;
+  color: #ffffff;
+}
+#title1 {
+  background-color: #009900;
+}
+#title2 {
+  background-color: #0066cc;
+}
 
+#title3 {
+  background-color: #cc0066;
 }
 p {
   margin: 10px;
+  clear: both;
+
+}
+
+#section1, #section2, #section3 {
+  background-color: lightgrey;
+  float: left;
+}
+
+@media (min-width: 992px) {
+  #section1, #section2, #section3 {
+    width: 33%;
+  }
 }
