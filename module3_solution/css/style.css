@@ -33,6 +33,14 @@ body {
   background-color: #fffad9;
 }
 
+#nav-list li:nth-child(2) {
+  border-top: 1px solid #f11111;
+  border-bottom: 1px solid #f11111;
+}
+#nav-list li:nth-child(3)  {
+  border-bottom: 1px solid #f11111;
+}
+
 /*Header END*/
 
 /* Content */
