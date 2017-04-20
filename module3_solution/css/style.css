@@ -27,10 +27,18 @@ body {
 
 #nav-list {
   margin: 0 -15px 0 -15px;
+  background-color: #a7b024;
+
+}
+#nav-list li {
+  background-color: #ebff00;
+  color: red;
+
 }
 #nav-list a {
   text-align: center;
-  background-color: #fffad9;
+  color: red;
+  /*background-color: #fffad9;*/
 }
 
 #nav-list li:nth-child(2) {
@@ -40,6 +48,7 @@ body {
 #nav-list li:nth-child(3)  {
   border-bottom: 1px solid #f11111;
 }
+
 
 /*Header END*/
 
